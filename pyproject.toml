@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "proxitarian"
+version = "0.1.0"
+description = ""
+authors = ["Jalal Hosseini <jalalhosseiny@gmail.com>"]
+readme = "README.md"
+
+[virtualenvs]
+create = true
+in-project = true
+path = ".venv"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+invoke = "^1.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
